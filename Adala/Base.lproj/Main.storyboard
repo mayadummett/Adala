@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="adala.png" translatesAutoresizingMaskIntoConstraints="NO" id="EfX-zC-JoH">
-                                <rect key="frame" x="30" y="235" width="364" height="359"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="adala" translatesAutoresizingMaskIntoConstraints="NO" id="lln-bH-y6s">
+                                <rect key="frame" x="20" y="191" width="374" height="416"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HyZ-2D-RiB">
@@ -36,7 +36,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-359" y="94"/>
+            <point key="canvasLocation" x="-359.4202898550725" y="93.75"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DJ1-Zf-BGr">
@@ -68,7 +68,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="adala.png" width="458" height="435"/>
+        <image name="adala" width="916" height="870"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
