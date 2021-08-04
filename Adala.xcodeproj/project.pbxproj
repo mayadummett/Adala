@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3DA0C82B26B9A20600B94AC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA0C82A26B9A20600B94AC0 /* AppDelegate.swift */; };
 		3DA0C82D26B9A20600B94AC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA0C82C26B9A20600B94AC0 /* SceneDelegate.swift */; };
-		3DA0C82F26B9A20600B94AC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA0C82E26B9A20600B94AC0 /* ViewController.swift */; };
+		3DA0C82F26B9A20600B94AC0 /* newYork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA0C82E26B9A20600B94AC0 /* newYork.swift */; };
 		3DA0C83226B9A20600B94AC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA0C83026B9A20600B94AC0 /* Main.storyboard */; };
 		3DA0C83526B9A20600B94AC0 /* Adala.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3DA0C83326B9A20600B94AC0 /* Adala.xcdatamodeld */; };
 		3DA0C83726B9A20B00B94AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA0C83626B9A20B00B94AC0 /* Assets.xcassets */; };
@@ -20,7 +20,7 @@
 		3DA0C82726B9A20600B94AC0 /* Adala.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adala.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA0C82A26B9A20600B94AC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DA0C82C26B9A20600B94AC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3DA0C82E26B9A20600B94AC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DA0C82E26B9A20600B94AC0 /* newYork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newYork.swift; sourceTree = "<group>"; };
 		3DA0C83126B9A20600B94AC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DA0C83426B9A20600B94AC0 /* Adala.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Adala.xcdatamodel; sourceTree = "<group>"; };
 		3DA0C83626B9A20B00B94AC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 			children = (
 				3DA0C82A26B9A20600B94AC0 /* AppDelegate.swift */,
 				3DA0C82C26B9A20600B94AC0 /* SceneDelegate.swift */,
-				3DA0C82E26B9A20600B94AC0 /* ViewController.swift */,
+				3DA0C82E26B9A20600B94AC0 /* newYork.swift */,
 				3DA0C83026B9A20600B94AC0 /* Main.storyboard */,
 				3DA0C83626B9A20B00B94AC0 /* Assets.xcassets */,
 				3DA0C83826B9A20B00B94AC0 /* LaunchScreen.storyboard */,
@@ -140,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DA0C82F26B9A20600B94AC0 /* ViewController.swift in Sources */,
+				3DA0C82F26B9A20600B94AC0 /* newYork.swift in Sources */,
 				3DA0C83526B9A20600B94AC0 /* Adala.xcdatamodeld in Sources */,
 				3DA0C82B26B9A20600B94AC0 /* AppDelegate.swift in Sources */,
 				3DA0C82D26B9A20600B94AC0 /* SceneDelegate.swift in Sources */,

@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  newYork.swift
 //  Adala
 //
 //  Created by Maya Dummett on 8/3/21.
@@ -14,6 +14,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBOutlet var infoLabel: UILabel!
 
 }
 
