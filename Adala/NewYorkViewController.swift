@@ -15,27 +15,30 @@ class NewYorkViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBOutlet weak var infoLabel: UILabel!
-    
+  
+    @IBAction func foodButton(_ sender: UIButton) {
+        if let url = URL(string: "https://mybenefits.ny.gov/mybenefits/begin") { UIApplication.shared.open(url, options: [:], completionHandler: nil)
+        }
+        
+    }
     @IBAction func healthcareButton(_ sender: UIButton) {
         if let url = URL(string: "https://nystateofhealth.ny.gov/individual?lang=en") {
             UIApplication.shared.open(url, options: [:], completionHandler: nil)
-    }
-    
-        func foodButton(_ sender: UIButton) {
-            if let url = URL(string: "https://mybenefits.ny.gov/mybenefits/begin") { UIApplication.shared.open(url, options: [:], completionHandler: nil)
-                }
-            
         }
+    }
+    @IBAction func otherAssistanceButton(_ sender: UIButton) {
+      if let url = URL(string: "https://mybenefits.ny.gov/mybenefits/begin") {
+        UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                      }
+                  
+          }
+    
+    
+    
 
     
     
-        func otherAssistanceButton(_ sender: UIButton) {
-        if let url = URL(string: "https://mybenefits.ny.gov/mybenefits/begin") {
-            UIApplication.shared.open(url, options: [:], completionHandler: nil)
-                }
-            
-    }
+       
     
     
     
@@ -43,12 +46,7 @@ class NewYorkViewController: UIViewController {
     
     
     
-    
-    
-    
-    
-    
-    /*
+        /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -59,4 +57,5 @@ class NewYorkViewController: UIViewController {
     */
 
 }
-}
+
+
