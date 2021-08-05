@@ -18,16 +18,23 @@ class NewYorkViewController: UIViewController {
     @IBOutlet weak var infoLabel: UILabel!
     
     @IBAction func healthcareButton(_ sender: UIButton) {
-        infoLabel.text = "hello world"
+        if let url = URL(string: "https://nystateofhealth.ny.gov/individual?lang=en") {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
     }
     
-    @IBAction func foodButton(_ sender: UIButton) {
-        infoLabel.text = "hello world 2"
-    }
+        func foodButton(_ sender: UIButton) {
+            if let url = URL(string: "https://mybenefits.ny.gov/mybenefits/begin") { UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                }
+            
+        }
+
     
     
-    @IBAction func otherAssistanceButton(_ sender: UIButton) {
-        infoLabel.text = "hello world 3"
+        func otherAssistanceButton(_ sender: UIButton) {
+        if let url = URL(string: "https://mybenefits.ny.gov/mybenefits/begin") {
+            UIApplication.shared.open(url, options: [:], completionHandler: nil)
+                }
+            
     }
     
     
@@ -51,4 +58,5 @@ class NewYorkViewController: UIViewController {
     }
     */
 
+}
 }
