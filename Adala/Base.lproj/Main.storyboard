@@ -187,6 +187,7 @@
                                 </state>
                                 <connections>
                                     <action selector="foodButton:" destination="asA-qX-Bov" eventType="touchUpInside" id="iAE-ri-O0X"/>
+                                    <action selector="healthcareButton:" destination="asA-qX-Bov" eventType="touchUpInside" id="Pba-Ip-MtK"/>
                                 </connections>
                             </button>
                         </subviews>
