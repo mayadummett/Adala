@@ -155,9 +155,6 @@
                                     <color key="titleColor" red="1" green="0.30609041450000002" blue="0.43977248670000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
-                                <connections>
-                                    <action selector="healthcareButton:" destination="asA-qX-Bov" eventType="touchUpInside" id="2b2-TF-KWz"/>
-                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7jd-h7-6wH">
                                 <rect key="frame" x="84" y="379" width="267" height="121"/>
@@ -174,7 +171,7 @@
                                     <color key="titleColor" red="1" green="0.30609041450000002" blue="0.43977248670000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="otherAssistanceButton:" destination="asA-qX-Bov" eventType="touchUpInside" id="BYd-o9-tmh"/>
+                                    <action selector="otherAssistanceButton:" destination="asA-qX-Bov" eventType="touchUpInside" id="I6t-0x-hRT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i4L-2o-Tqk">
@@ -186,8 +183,8 @@
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="foodButton:" destination="asA-qX-Bov" eventType="touchUpInside" id="iAE-ri-O0X"/>
-                                    <action selector="healthcareButton:" destination="asA-qX-Bov" eventType="touchUpInside" id="Pba-Ip-MtK"/>
+                                    <action selector="foodButton:" destination="asA-qX-Bov" eventType="touchUpInside" id="G3y-cN-CtW"/>
+                                    <action selector="healthcareButton:" destination="asA-qX-Bov" eventType="touchUpInside" id="mmO-0g-efS"/>
                                 </connections>
                             </button>
                         </subviews>
